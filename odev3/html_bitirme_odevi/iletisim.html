@@ -1,0 +1,46 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    </head>
+    <body>
+    <h1>MENÜ</h1>
+    <a href="index.html">Anasayfa</a><br>
+    <a href="hakkimizda.html">Hakkımızda</a><br>
+    <a href="galeri.html">Galeri</a><br>
+    <a href="iletisim.html">İletişim</a>
+    <h3>Siparişleriniz için <mark>aşağıda</mark> bulunan formu göndermeniz yeterlidir.</h3>
+    <form>
+        <label for="ad">Adınızı Giriniz:</label>
+        <input type="text" id="ad" name="ad" required><br><br>
+
+        <label for="soyad">Soyadınızı Giriniz:</label>
+        <input type="text" id="soyad" name="soyad"><br><br>
+
+        <label for="mail">Mail Adresiniz:</label>
+        <input type="email" name="mail" id="mail" required><br><br>
+
+        <label for="teslimat">Teslim alacak kişinin isim ve soyisim</label>
+        <input type="text" name="teslimat" id="teslimat" required><br><br>
+
+        <label for="telephone">Teslim alcak kişinin iletişim numarası:</label>
+        <input type="tel" id="telephone" name="telephone" required><br><br>
+
+        <label>Tür seçiniz:</label>
+        <input type="radio" name="tür" value="kutu">Butu
+        <input type="radio" name="tür" value="buket">Buket <br><br>
+
+        <label for="sehir">Teslimat adresiniz hangi ildedir seçiniz:</label>
+        <select name="sehir" id="sehir" >
+            <option value="Seçiniz">--Seçiniz--</option>
+            <option value="Ankara">Ankara</option>
+        </select><br><br>
+        
+        <label for="mesaj">Mesajınızı Giriniz:</label>
+        <textarea name="mesaj" id="mesaj" cols="20" rows="5" placeholder="Mesajınızı Giriniz:"></textarea>
+    </form>
+    </body>
+    </html>
