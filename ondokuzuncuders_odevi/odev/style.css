@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+nav{
+    background-color: rgb(202, 197, 197);
+    padding-left: 20%;
+    height: 60px;
+   
+}
+nav img{
+  width:20px;
+  height:25px;
+  margin-right:7px;
+}
+label{
+  color: rgb(95, 91, 91);
+  margin-top: 10px;
+  font-size: 25px;
+}
+label:hover{
+    cursor: pointer;
+}
+input{
+    width: 400px;
+    height:40px;
+    margin:16px;
+}
+.container{
+    width:75%;
+    margin: auto;
+    
+}
+h1{
+    margin-top: 20px;
+    margin-bottom:10px;
+    margin-left: 15px;
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+}
+.bilgi{
+  color: rgb(204, 196, 196);
+  margin-top:0;
+}
+p{
+    margin:10px 20px;
+}
+.col-70{
+    width:70%;
+    float:left; 
+    margin-bottom: 800px;
+   
+}
+.col-30{
+    width:30%;
+    height: 1260px;
+    float:left;
+    background-color: rgba(231, 225, 225, 0.959);
+    border: solid 1px rgb(203, 200, 200);
+   
+}
+.baslik h3{
+    text-align: center;
+    margin:5px;
+    
+}
+
+.foto img{
+    width:100%;
+    padding: 15px;
+}
+.foto p{
+  text-align: center;
+  margin-top: 0;
+}
+.baslik, .foto, .dogum, .olum, .defin, .milliyet, .evlilik, .cocuk, .ebeveynler{
+    border-bottom: 1px solid rgb(203, 200, 200);
+}
+.dogum, .olum, .defin, .milliyet, .evlilik, .cocuk, .ebeveynler {
+    overflow: hidden;
+  }
+  
+  .left {
+    float: left;
+    width: 50%;
+  }
+  
+  .right {
+    float: right;
+    width: 50%;
+  }
+  h3{
+    text-align: left;
+    margin-top: 16px;
+    margin-left:2px;
+  }
+  .foto p{
+    margin-top: 0;
+  }
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    display: none;
+  }
+  
+  .accordion-content p {
+    margin: 0;
+  }
+ 
+  footer{
+    background-color: rgb(191, 189, 189);
+  }
+  
